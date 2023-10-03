@@ -1,13 +1,20 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 44px 0 144px 76px;
 }
 
 .link-header{
     font-weight: 600;
     line-height: 29px;
-    cursor: pointer;
     font-size: 24px;
     color: #989D9C;
+    cursor: pointer;
     margin-right: 23px;
 }
 
@@ -15,7 +22,6 @@
     border-radius: 50px;
     background: #665AE1;
     border: none;
-    margin-left: 20px;
     width: 130px;
     height: 41px;
     color: #ffffff;
@@ -24,26 +30,29 @@
     line-height: 29px;
 }
 
-img{
-    width: 500x;
-    height: 370px;
-    margin-left: 125px;
+.right{
     display: inline-block;
+    margin-left: 86px;
 }
 
-.text{
+img{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
     display: inline-block;
 }
 
 h1{
     font-weight: 900;
     font-size: 90px;
+    line-height: 122px;
     color: #515151;
 }
 
 h2{
     font-weight: 500;
     font-size: 58px;
+    line-height: 71px;
     color: #515151
 }
 
@@ -52,6 +61,7 @@ p{
     font-size: 24px;
     line-height: 29px;
     width: 515px;
+    margin: 32px 0 65px 0;
     color: #848484;
 }
 
