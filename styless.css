@@ -76,3 +76,14 @@ p{
     font-size: 28px;
     padding: 15px 46px 15px 46px;
 }
+@media screen and (max-width: 900px) {
+    header{
+       display: none;
+    }   
+    img{
+       margin: 90px 0 0 10px;
+    }
+    h1{
+       margin-top: 10px;
+    }
+}
